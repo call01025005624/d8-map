@@ -1,0 +1,10 @@
+# 카카오 API 호출 (place.py)
+requests
+# .env에서 키 읽기
+python-dotenv
+# 공공데이터 CSV 정리 (data_prep.py)
+pandas
+# XLSX 원본을 pd.read_excel로 읽을 때
+openpyxl
+# 지도 화면 (st.iframe은 1.66부터)
+streamlit>=1.66
