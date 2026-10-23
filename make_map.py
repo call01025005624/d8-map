@@ -87,7 +87,7 @@ def main():
         return
 
     try:
-        places = search_places(query, size=15)
+        places = search_places(query, size=10)
     except RuntimeError as e:
         print(e)
         return
